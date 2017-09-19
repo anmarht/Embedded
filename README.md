@@ -8,16 +8,29 @@ Linux or Mac. I'm using an Ubuntu VM on my Windows.
 ## Tools to buy
 
 JTAG for the target archtecture, USB to Serial.
-
+====
 For JTAG, i haven't come across needing it so far.
 
 For a working USB-to-serial that works, you can buy this [KEDSUM® CP2102](https://www.amazon.com/gp/product/B009T2ZR6W/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1).
 
 ## Tools to Download
 
-Mobaxterm, Putty, or any software that can access Serial port.
+Mobaxterm (Windows only), Putty, or any software that can access Serial port.
 
-I prefer Mobaxterm. [Download it](http://mobaxterm.mobatek.net/download.html).
+I prefer Mobaxterm when needing to work with Windows. [Download it](http://mobaxterm.mobatek.net/download.html).
+
+On Ubuntu:
+
+```
+sudo apt-get install gtkterm
+```
+then run it using sudo as it needs administrative privileges.
+
+```
+sudo gtkterm
+```
+
+*NOTE: With TP-Link routers, once you open the serial session, reboot the router, and keep typing "tpl" and enter, until you get a command prompt.*
 
 ## Using the tools with routers
 
