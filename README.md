@@ -30,6 +30,13 @@ then run it using sudo as it needs administrative privileges.
 sudo gtkterm
 ```
 
+Download Qemu (this is to create virtual devices)
+
+```
+sudo apt-get install qemu
+```
+
+
 *NOTE: With TP-Link routers, once you open the serial session, reboot the router, and keep typing "tpl" and enter, until you get a command prompt.*
 
 ## Using the tools with routers
@@ -76,7 +83,8 @@ MIPS SDK is at: https://community.imgtec.com/developers/mips/tools/codescape-mip
 
 This SDK builds Barebones MIPS apps as well as Linux.
 
-@@ I've just downloaded it and will try to update this section with findings.
+@@ i should create a folder MIPSEXample to put the code
+
 
 ## Famous BootLoaders
 They run first, then they load the linux.
