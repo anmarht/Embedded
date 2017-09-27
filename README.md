@@ -126,4 +126,15 @@ The Yocto Project is an open source collaboration project that provides template
 
 Download: https://www.denx.de/wiki/view/DULG/ELDKAvailability
 
+## Tool Chains
+
+### Toolchains from [free-electrons.com](http://free-electrons.com/)
+
+http://toolchains.free-electrons.com/
+
+### Toolchains from DD-WRT (More than 3GB)
+
+sudo wget ftp://ftp.dd-wrt.com/toolchains/toolchains.tar.xz
+
+if download is interrupted use --continue the next time to resume.
 
