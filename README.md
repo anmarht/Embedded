@@ -5,13 +5,13 @@ Everything you need to know to start developing barebones or an embedded Linux a
 ## Operating System: Linux => Ubuntu and other tools Installation
 Linux or Mac. I'm using an Ubuntu VM on my Windows.
 
-1. Install Ubuntu. 
+### 1. Install Ubuntu. 
 
-2. Install Google Chrome. Download link, don't try to install (maybe your Ubuntu will not fully install).
+### 2. Install Google Chrome. Download link, don't try to install (maybe your Ubuntu will not fully install).
 
 https://www.google.com/chrome/browser/desktop/index.html
 
-3. Do this:
+Do this:
 
 ```
 cd ~/Downloads
@@ -34,11 +34,24 @@ sudo apt --fix-broken install
 
 Now, if you go the the top left GUI Ubuntu icon and click, then type "chrome", you will see the Google Chrome Browser icone displayed (which should generally mean that it has been installed correctly), Hold CTRL +  Left mouse button and drag this Icon to the left side bar to keep Google chrome handy when you need it.
 
-
-
-
-
 If the Google Chrome downloaded filename is different, change the above to match your downloaded filename.
+
+### 3. Emacs notepad (optional)
+
+```javascript
+sudo apt-get install emacs
+```
+
+### 4. GitKraken
+
+1. Use a browser to download GitKraken.
+
+2. Using a terminal
+
+```javascript
+sudo dpkg -i gitkraken-amd64.deb 
+sudo apt-get --fix-broken install
+```
 
 
 ## Tools to buy
